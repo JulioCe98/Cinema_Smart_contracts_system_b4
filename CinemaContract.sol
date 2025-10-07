@@ -5,7 +5,7 @@ pragma solidity 0.8.24;
 import "./interfaces/iCinemaToken.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-error TransactionFailed(uint weiAmount);
+error TransactionFailed(uint weiAmount_);
 
 contract CinemaContract is Ownable {
     address public cinemaVaultAddress;

@@ -19,8 +19,8 @@ contract CinemaVault {
         _;
     }
 
-    event depositEvent(address from, uint amount);
-    event withdrawEvent(address from, uint amount);
+    event depositEvent(address from_, uint amount_);
+    event withdrawEvent(address from_, uint amount_);
 
     function setCinemaAddress(address cinemaAddress_) public {
         require(cinemaAddress == address(0), "Cinema address already set");
